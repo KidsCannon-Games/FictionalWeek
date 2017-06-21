@@ -43,7 +43,7 @@ namespace FictionalWeekTest
         public void TestWeeks_week20()
         {
             var w = new Weeks ();
-            for (int i = 0; i < 19; i++) {
+            for (var i = 0; i < 19; i++) {
                 w.Next ();
             }
             Assert.That (w.Month (), Is.EqualTo (5));
