@@ -7,6 +7,8 @@ obj/
 *.pidb
 *.resources
 
+*.dll
+
 packages
 test-results/
 TestResult.xml
