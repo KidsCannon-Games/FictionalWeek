@@ -51,7 +51,7 @@ namespace FictionalWeek
                 int.TryParse(month, out w);
                 if (w < 1) throw new ArgumentException("week must be greater than or equal to 1");
             }
-            
+
             if (year != "*" && year != Year().ToString())
             {
                 return false;
@@ -60,7 +60,7 @@ namespace FictionalWeek
             {
                 return false;
             }
-            
+
             return week == "*" || week == Week().ToString();
         }
 

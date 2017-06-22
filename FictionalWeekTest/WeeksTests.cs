@@ -9,16 +9,16 @@ namespace FictionalWeekTest
         [Test]
         public void TestMatch()
         {
-            var w = new Weeks ();            
+            var w = new Weeks ();
             Assert.IsTrue(w.IsMatch("*", "*", "*"));
             Assert.IsTrue(w.IsMatch("*", "*", "1"));
             Assert.IsTrue(w.IsMatch("*", "1", "1"));
             Assert.IsTrue(w.IsMatch("1", "1", "1"));
-            
+
             Assert.IsFalse(w.IsMatch("*", "*", "2"));
             Assert.IsFalse(w.IsMatch("*", "2", "1"));
             Assert.IsFalse(w.IsMatch("2", "1", "1"));
-            
+
             Assert.IsFalse(w.IsMatch("*", "a", "*"));
         }
 
