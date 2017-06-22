@@ -7,7 +7,7 @@ namespace FictionalWeekTest
     public class WeeksTest
     {
         [Test]
-        public void TestMatch()
+        public void TestIsMatch()
         {
             var w = new Weeks ();
             Assert.IsTrue(w.IsMatch("*", "*", "*"));
