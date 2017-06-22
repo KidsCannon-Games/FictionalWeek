@@ -9,5 +9,5 @@
 download [unity-dll](https://raw.githubusercontent.com/ToQoz/bin/master/unity-dll)
 
 ```
-$ unity-dll FictionalWeek.dll FictionalWeek/FictionalWeek.cs
+$ unity-dll FictionalWeek.dll FictionalWeek/*.cs
 ```
