@@ -48,7 +48,7 @@ namespace FictionalWeek
             if (week != "*")
             {
                 int w;
-                int.TryParse(month, out w);
+                int.TryParse(week, out w);
                 if (w < 1) throw new ArgumentException("week must be greater than or equal to 1");
             }
 
